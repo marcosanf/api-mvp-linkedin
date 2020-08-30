@@ -20,6 +20,11 @@ public class Job {
 	private @NotBlank String location;
 	private @NotBlank String jobDescription;
 	
+	@Deprecated
+	public Job() {
+		
+	}
+	
 
 	public Job(@NotBlank String jobTitle, @NotBlank String company, @NotBlank String location,
 			@NotBlank String jobDescription) {
@@ -35,6 +40,56 @@ public class Job {
 		return "Job [jobTitle=" + jobTitle + ", company=" + company + ", location=" + location + ", jobDescription="
 				+ jobDescription + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
 				+ super.toString() + "]";
+	}
+
+
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+
+	public String getJobTitle() {
+		return jobTitle;
+	}
+
+
+	public void setJobTitle(String jobTitle) {
+		this.jobTitle = jobTitle;
+	}
+
+
+	public String getCompany() {
+		return company;
+	}
+
+
+	public void setCompany(String company) {
+		this.company = company;
+	}
+
+
+	public String getLocation() {
+		return location;
+	}
+
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+
+	public String getJobDescription() {
+		return jobDescription;
+	}
+
+
+	public void setJobDescription(String jobDescription) {
+		this.jobDescription = jobDescription;
 	}
 	
 	
