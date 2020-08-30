@@ -27,6 +27,11 @@ public class User {
 	private @NotBlank String jobTitle;
 	private @NotBlank String company;
 	private LocalDateTime CreatedAt = LocalDateTime.now();
+	
+	@Deprecated
+	public User() {
+		
+	}
 
 	public User(@NotBlank @Email String email, @NotBlank String password, @NotBlank String firstName,
 			@NotBlank String lastName, @NotBlank String country, @NotBlank String city, @NotBlank String state,
