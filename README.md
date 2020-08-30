@@ -6,12 +6,24 @@
 ## Deploy
 > Status: Em desenvolvimento :warning:
 
-## technologies used :books:
+## Stack da aplicação :books:
 - [Java 11](https://codesandbox.io/)
 - [Maven](https://maven.apache.org/)
 - [Spring Framework](https://spring.io/projects/spring-framework)
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 - [Swagger](https://swagger.io/)
+
+## Levantando a aplicação
+
+Levantar o **SPRING-BOOT**:
+```
+mvn spring-boot:run
+```
+
+## Documentação API
+
+**Swagger**: http://localhost:8080/swagger-ui.html
+
 
 ## Features
 - [x] created a header component
