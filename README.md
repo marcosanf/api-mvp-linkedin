@@ -26,10 +26,14 @@ mvn spring-boot:run
 
 
 ## Features
-- [x] created a header component
-- [x] create a card template with vue component
-- [x] list characters in cards
-- [ ] create a modal to see more information about characteres
-- [x] filter character by name
-- [ ] other filters, like location or episode
-- [ ] create a footer component with vue and bulma
+Usuário
+- [x] Endpoint para criação de um usuário
+- [ ] Endpoint para buscar um usuário através de um Id
+Post
+- [x] Endpoint para criação de um post
+- [x] Enpoint para listar todos os posts
+- [ ] Endpoint para editar um post
+- [ ] Endpoint para excluir um post
+Job
+- [x] Endpoint para criar um job
+- [x] Endpoint para listar todos os jobs
