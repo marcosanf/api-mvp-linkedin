@@ -1,7 +1,7 @@
 <img src="https://blog.cloudrail.com/wp-content/uploads/2016/03/LinkedIn.png" alt="Linkedin Logo">
 
 # MVP Linkedin API
-<p align="justify">O *Linkedin* é a maior plataforma profissional do mundo. Com esta API, você conseguirá implementar algumas das funcionalidade presentes nele e criar a sua própria rede social. Show de bola, né? Nossa API é capaz de criar usuários, publicações (posts) e de quebra você pode anunciar novos jobs e reter talentos para empresas que utilizem a sua rede social. Nosso trabalho ainda não terminou, e você pode fazer parte colaborando conosco, é só enviar o seu pull request, aproveite!</p>
+<p align="justify">O Linkedin é a maior plataforma profissional do mundo. Com esta API, você conseguirá implementar algumas das funcionalidade presentes nele e criar a sua própria rede social. Show de bola, né? Nossa API é capaz de criar usuários, publicações (posts) e de quebra você pode anunciar novos jobs e reter talentos para empresas que utilizem a sua rede social. Nosso trabalho ainda não terminou, e você pode fazer parte colaborando conosco, é só enviar o seu pull request, aproveite!</p>
 
 ## Deploy
 > Status: Em desenvolvimento :warning:
