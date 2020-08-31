@@ -26,14 +26,14 @@ mvn spring-boot:run
 
 
 ## Features
-Usuário
+> Usuário
 - [x] Endpoint para criação de um usuário
 - [ ] Endpoint para buscar um usuário através de um Id
-Post
+> Post
 - [x] Endpoint para criação de um post
 - [x] Enpoint para listar todos os posts
 - [ ] Endpoint para editar um post
 - [ ] Endpoint para excluir um post
-Job
+> Job
 - [x] Endpoint para criar um job
 - [x] Endpoint para listar todos os jobs
